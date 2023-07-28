@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    padding: 2rem;
+}
+
+.img-2 {
+    width: 100%;
+}
+
+.img-3 {
+    display: none;
+}
+
+h1 {
+    letter-spacing: 0.3rem;
+    font-size: 2.7rem;
+    text-align: center;
+    margin-top: 2.8rem;
+}
+
+.h-1 {
+    color: hsl(0, 36%, 70%);
+}
+
+span {
+    display: block;
+}
+
+p {
+    width: 80%;
+    text-align: center;
+    color: hsl(0, 36%, 70%);
+    margin: auto;
+    font-size: 1.2rem;
+    margin-top: 2.0rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.btn-1 {
+    padding: 0.7rem;
+    border-radius: 40px;
+    border: 1px solid hsl(0, 36%, 70%);
+    width: 105%;
+    margin-bottom: 2rem;
+}
+
+.btn-2 {
+    width: 10px;
+    padding: 0.65rem 1rem;
+
+
+}
+
+button {
+    border: none;
+    border-radius: 40px;
+    background-color: hsl(0, 93%, 68%);
+
+}
+
+@media (min-width:768px) {
+    * {
+        
+        /* outline: 1px solid red; */
+        /* overflow: hidden; */
+    }
+
+    section {
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+
+    h1 {
+        letter-spacing: 0.3rem;
+        font-size: 2.7rem;
+        text-align: left;
+        margin-top: 2.8rem;
+    }
+
+    .text {
+        width: 50%;
+        padding-left: 3rem;
+    }
+
+    .h-1 {
+        color: hsl(0, 36%, 70%);
+    }
+
+    span {
+        display: block;
+    }
+
+    p {
+        width: 80%;
+        text-align: left;
+        color: hsl(0, 36%, 70%);
+        margin: 0;
+        font-size: 1.2rem;
+        margin-top: 2.0rem;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: left;
+        margin-top: 2rem;
+    }
+
+    .btn-1 {
+        padding: 0.7rem;
+        border-radius: 40px;
+        border: 1px solid hsl(0, 36%, 70%);
+        width: 105%;
+    }
+
+    .btn-2 {
+        width: 10px;
+        padding: 0.65rem 1rem;
+
+
+    }
+
+    button {
+        border: none;
+        border-radius: 40px;
+        background-color: hsl(0, 93%, 68%);
+    }
+
+    .img-1 {
+        width: 50%;
+       
+    }
+
+    .img-2 {
+        display: none;
+    }
+
+    .img-3 {
+        display: block;
+        height: 100vh;
+        width: 48vw;
+        position: absolute;
+        top: 0%;
+        
+       
+    }
+
+}
